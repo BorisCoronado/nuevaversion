@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="org.hellfish.udabol.PaginaPrincipal"
+    android:background="@drawable/inicio">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="400dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/post" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginLeft="240dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:background="@drawable/buscador" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="320dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="80dp"
+        android:id="@+id/relativeLayout"
+        android:layout_marginLeft="50dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="     Buscar"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textStyle="italic"
+            android:visibility="visible"
+            android:background="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="230dp"
+        android:background="@drawable/logoudaboloficial"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginBottom="150dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encuentra tu Aula"
+            android:id="@+id/button2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button"
+            android:textColor="#1c08f3"
+            android:onClick="menuBloques" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="450dp"
+        android:layout_marginLeft="310dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btnmas" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

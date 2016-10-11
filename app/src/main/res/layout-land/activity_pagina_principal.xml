@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="org.hellfish.udabol.PaginaPrincipal"
+    android:background="@drawable/inicio">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="170dp"
+        android:id="@+id/relativeLayout3"
+        android:layout_marginRight="400dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/post" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="127dp"
+        android:layout_above="@+id/relativeLayout3"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/post" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="50dp"
+        android:id="@+id/relativeLayout5">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:background="@drawable/buscador" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout2"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="     Buscar"
+            android:textColor="@color/abc_secondary_text_material_light"
+            android:textStyle="italic"
+            android:visibility="visible"
+            android:background="#ffffff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/relativeLayout4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encuentra tu Aula"
+            android:id="@+id/button5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button"
+            android:textColor="#1c08f3"
+            android:onClick="menuBloques" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="550dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            android:background="@drawable/btnmas"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="false"
+            android:layout_marginBottom="200dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/logoudaboloficial"
+        android:layout_marginRight="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/relativeLayout5"
+        android:layout_marginBottom="50dp" />
+</RelativeLayout>
