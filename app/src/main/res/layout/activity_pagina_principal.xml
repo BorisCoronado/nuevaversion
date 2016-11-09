@@ -7,6 +7,11 @@
     tools:context="org.hellfish.udabol.PaginaPrincipal"
     android:background="@drawable/inicio">
 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textoBuscado"/>
+
     <Button
         android:layout_width="123dp"
         android:layout_height="48dp"

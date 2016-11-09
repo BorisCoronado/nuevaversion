@@ -2,18 +2,17 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bloque"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.hellfish.udabol.Pagina3"
+    tools:context="org.hellfish.udabol.BloqueA"
     android:background="@drawable/inicio2">
 
     <ImageView
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/croh"
-        android:id="@+id/imageView3"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/mapa"
+        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content" />
 </android.support.constraint.ConstraintLayout>

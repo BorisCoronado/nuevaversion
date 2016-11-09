@@ -12,8 +12,28 @@ public class pagina2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pagina2);
     }
-    public void irCroquis(View view){
-        Intent i = new Intent(this,Pagina3.class);
+    public void bloqueA(View view){
+        Intent i = new Intent(this,BloqueA.class);
+        startActivity(i);
+    }
+
+    public void bloqueC(View view){
+        Intent i = new Intent(this,BloqueC.class);
+        startActivity(i);
+    }
+
+    public void bloqueCC(View view){
+        Intent i = new Intent(this,BloqueCc.class);
+        startActivity(i);
+    }
+
+    public void bloqueD(View view){
+        Intent i = new Intent(this,BloqueD.class);
+        startActivity(i);
+    }
+
+    public void bloqueG(View view){
+        Intent i = new Intent(this,BloqueG.class);
         startActivity(i);
     }
 }

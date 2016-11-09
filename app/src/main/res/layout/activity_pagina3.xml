@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/croquis"
+        app:srcCompat="@drawable/inicio"
         android:id="@+id/imageView7"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintLeft_creator="1"

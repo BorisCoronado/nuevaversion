@@ -8,20 +8,20 @@
     android:background="@drawable/inicio2">
 
     <Button
-        android:layout_width="112dp"
         android:layout_height="48dp"
         android:text="Laboratorios"
         android:id="@+id/button11"
         android:background="@drawable/button"
         android:textStyle="bold|italic"
-        android:onClick="irCroquis"
+        android:onClick="bloqueCC"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="61dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="150dp" />
 
     <Button
         android:layout_width="0dp"
@@ -30,7 +30,7 @@
         android:id="@+id/button10"
         android:background="@drawable/button"
         android:textStyle="bold|italic"
-        android:onClick="irCroquis"
+        android:onClick="bloqueG"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/button11"
@@ -46,7 +46,7 @@
         android:id="@+id/button9"
         android:background="@drawable/button"
         android:textStyle="bold|italic"
-        android:onClick="irCroquis"
+        android:onClick="bloqueD"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/button10"
@@ -62,7 +62,7 @@
         android:id="@+id/button8"
         android:background="@drawable/button"
         android:textStyle="bold|italic"
-        android:onClick="irCroquis"
+        android:onClick="bloqueC"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/button9"
@@ -80,7 +80,7 @@
         android:elegantTextHeight="false"
         android:contextClickable="false"
         android:textStyle="bold|italic"
-        android:onClick="irCroquis"
+        android:onClick="bloqueA"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/button8"
