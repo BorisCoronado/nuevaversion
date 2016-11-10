@@ -26,7 +26,9 @@
         <activity android:name=".BloqueD" />
         <activity android:name=".BloqueCc" />
         <activity android:name=".BloqueG" />
-        <activity android:name=".BloqueA"></activity>
+        <activity android:name=".BloqueA" />
+        <activity android:name=".A1" />
+        <activity android:name=".A2"></activity>
     </application>
 
 </manifest>
